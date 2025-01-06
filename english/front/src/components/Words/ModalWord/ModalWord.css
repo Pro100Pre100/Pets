@@ -1,0 +1,39 @@
+.modalWord {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 600px;
+  height: 300px;
+  background: var(--block-color);
+  border-radius: 15px;
+}
+
+.modalWord__sendSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.modalWord_button {
+  height: 56px;
+  line-height: 0;
+}
+
+.modalWord__label {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.modalWord__inputArea {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

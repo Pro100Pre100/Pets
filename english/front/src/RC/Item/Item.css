@@ -1,0 +1,36 @@
+.item {
+  list-style-type: none;
+  width: 95%;
+  height: 60px;
+  border-radius: 15px;
+  font-family: "Parkinsans", sans-serif;
+  font-size: var(--main-font-size);
+  text-align: start;
+  line-height: 60px;
+  padding-left: 10px;
+  user-select: none;
+  background: #78bcdb;
+  border: 1px solid #7095a7;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.item:hover {
+  background: #49829c;
+}
+
+.item:active {
+  background: #457991;
+}
+
+@keyframes animation {
+
+  0% {
+    background: #78bcdb;
+  }
+
+  100% {
+    background: #f19d9d;
+  }
+
+}

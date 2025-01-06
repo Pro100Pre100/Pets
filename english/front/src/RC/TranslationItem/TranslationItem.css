@@ -1,0 +1,45 @@
+.translationItem {
+  display: flex;
+  list-style-type: none;
+  width: 95%;
+  min-height: auto;
+  border-radius: 15px;
+  font-family: "Parkinsans", sans-serif;
+  font-size: var(--main-font-size);
+  text-align: start;
+  line-height: 60px;
+  padding-left: 10px;
+  user-select: none;
+  border: 1px solid #7095a7;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.translationItem[data-preparedelete=one] {
+  background: #f19d9d;
+  animation: .5s linear;
+}
+
+.translationItem[data-preparedelete=zero] {
+  background: #78bcdb;
+}
+
+.translationItem:hover {
+  filter: brightness(90%);
+}
+
+.translationItem:active {
+  filter: brightness(80%);
+}
+
+@keyframes animation {
+
+  0% {
+    background: #78bcdb;
+  }
+
+  100% {
+    background: #f19d9d;
+  }
+
+}

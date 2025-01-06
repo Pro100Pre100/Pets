@@ -1,0 +1,24 @@
+.quizSettings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(212, 212, 212);
+}
+
+.quizSettings__block {
+  position: relative;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 350px 400px;
+  grid-template-rows: 300px 300px;
+  place-content: center;
+  background: var(--bg-color);
+}
+
+.button.startTest {
+  position: absolute;
+  bottom: -80px;
+  right: 0px;
+}

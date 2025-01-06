@@ -1,0 +1,22 @@
+.button {
+  user-select: none;
+  border: none;
+  width: 230px;
+  height: 70px;
+  border-radius: 5px;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  background: #70b669;
+  border: 3px solid black;
+  line-height: 55px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.button:hover {
+  background: #69b68c;
+}
+
+.button:active {
+  background: #69b6a5;
+}

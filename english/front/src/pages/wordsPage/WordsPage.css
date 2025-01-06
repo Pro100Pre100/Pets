@@ -1,0 +1,9 @@
+.wordsPage {
+  display: grid;
+  grid-template-columns: 150px 650px;
+  place-content: center;
+  gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(212, 212, 212);
+}

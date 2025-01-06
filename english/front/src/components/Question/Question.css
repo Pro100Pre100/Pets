@@ -1,0 +1,40 @@
+.question {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 120px;
+  width: 650px;
+  height: 450px;
+  border-radius: 15px;
+  background: var(--block-color);
+}
+
+.questionWord {
+  background: rgb(210, 210, 210);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 45px;
+}
+
+.question_progress {
+  position: absolute;
+  top: -30px;
+  width: 450px;
+  background: rgb(180, 45, 45);
+}
+
+.answerArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttonAnswer {
+  width: 200px;
+  height: 56px;
+  line-height: 0;
+}

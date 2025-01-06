@@ -1,0 +1,32 @@
+.backButton {
+  position: absolute;
+  left: -35px;
+  top: -35px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--block-color);
+  background-image: url('../../images/return.webp');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.backButton::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: green;
+  mix-blend-mode: color;
+  opacity: 0;
+  z-index: 100;
+  transition: .5s;
+}
+
+.backButton:hover::before {
+  opacity: 1;
+}

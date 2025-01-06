@@ -1,0 +1,14 @@
+.mainAlert {
+  display: flex;
+  font-size: var(--main-font-size);
+  font-family: var(--main-font);
+  padding: 10px;
+}
+
+.item:hover {
+  background: #49829c;
+}
+
+.item:active {
+  background: #457991;
+}

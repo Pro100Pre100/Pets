@@ -1,0 +1,20 @@
+.input {
+  all: unset;
+  width: 250px;
+  height: 50px;
+  border: 3px solid black;
+  padding: 0 5px;
+  border-radius: 10px;
+  background: white;
+  font-size: var(--main-font-size);
+  font-family: var(--main-font);
+  cursor: text;
+}
+
+.item:hover {
+  background: #49829c;
+}
+
+.item:active {
+  background: #457991;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: "Parkinsans", sans-serif;
+  --main-font-size: 24px;
+  --error-color: rgb(141, 53, 53);
+  --block-color: #829ccc;
+  --success-color: rgb(86, 150, 86);
+  --bg-color: rgb(212, 212, 212);
+}

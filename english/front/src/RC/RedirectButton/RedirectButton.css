@@ -1,0 +1,21 @@
+.redirectButton {
+  user-select: none;
+  border: none;
+  width: 180px;
+  height: 80px;
+  border-radius: 5px;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  background: #5599b9;
+  border: 3px solid black;
+  line-height: 55px;
+  cursor: pointer;
+}
+
+.redirectButton:hover {
+  background: #49829c;
+}
+
+.redirectButton:active {
+  background: #457991;
+}
